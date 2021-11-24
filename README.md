@@ -5,8 +5,8 @@ actual price will either reduce or increase depending on business rules.
 
 2.I didn't mock response of the downstream system rather I called different end-points of one of the public API.
 
-3. I used reactive mono db for storing data.
-4. Please use default post for mongo db.
+3. I used reactive mongo db for storing data.
+4. Please use default port for mongo db.
 5. Wrote some test cases mainly for controller (resource) and service.
 6. I didn't add any BRMS (Rules) engine for price calculation rather I used only one
 java file for rule calculations.
